@@ -596,7 +596,7 @@ img[src="images/image-jeremy.png"]{
     }
     
 }
-@media screen and (min-width:790px) and (max-width:805px){
+@media screen and (min-device-width:790px) and (max-device-width:805px){
     html,body{
         overflow-x: hidden;
     }
