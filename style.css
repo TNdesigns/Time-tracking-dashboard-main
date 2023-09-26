@@ -596,7 +596,7 @@ img[src="images/image-jeremy.png"]{
     }
     
 }
-@media screen and (min-width:790px) and (max-width:800px) and (orientation: portrait){
+@media screen and (min-width:790px) and (max-width:800px) and (orientation:landscape){
     html,body{
         overflow-x: hidden;
     }
