@@ -593,83 +593,7 @@ img[src="images/image-jeremy.png"]{
     }
     #btn1.clicked{
         color: white;
-    }
-    
-}
-@media screen and (min-device-width:790px) and (max-device-width:805px){
-    html,body{
-        overflow-x: hidden;
-    }
-    .nme-bx{
-        /*position: relative;*/
-        top: -21vw;
-        left: 0vw;
-        transform: rotate(270deg);
-        
-    }
-    img[src="images/image-jeremy.png"]{
-        top:3vw;
-        left: 7vw;
-    }
-    img[src="images/image-jeremy.png"],
-    .nme > p,
-    .nme > h1,
-    #btn1,#btn2,#btn3{
-        transform: rotate(90deg);
-    }
-    .nme{
-        height:60%;
-        width:25%;
-    }
-    .nme2{
-        height:30%;
-        width:25%;
-    }
-    .nme > p{
-        top:23vw;
-        left: 8vw;
-    }
-    .nme > h1{
-        top: 10vw;
-        left: 3vw;
-    }
-    #btn1{
-        top: 13vw;
-        left: 7vw;
-    }
-    #btn2{
-        top:8vw;
-        left: 0vw;
-    }
-    #btn3{
-        top:3vw;
-        left: -7vw;
-    }
-    .tbxs1{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        left: -43vw;
-        top:10vw;
-    }
-    .tbxs2{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        left: 11vw;
-        top:-99vw;
-    }
-    .imgbx{
-        top: -47.5vw;
-        left: 50.6vw;
-    }
-    .imgbx2{
-        top: -39.7vw;
-        left: 50.6vw;
-    }
-    #btn1.clicked{
-        color: white;
-    }  
+    }   
 }
 @media screen and (min-width:801px) and (max-width:899px){
     html,body{
@@ -746,4 +670,78 @@ img[src="images/image-jeremy.png"]{
         color: white;
     }  
 }
-
+@media screen and (min-device-width:790px) and (max-device-width:800px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .nme-bx{
+        /*position: relative;*/
+        top: -21vw;
+        left: 0vw;
+        transform: rotate(270deg);
+        
+    }
+    img[src="images/image-jeremy.png"]{
+        top:3vw;
+        left: 7vw;
+    }
+    img[src="images/image-jeremy.png"],
+    .nme > p,
+    .nme > h1,
+    #btn1,#btn2,#btn3{
+        transform: rotate(90deg);
+    }
+    .nme{
+        height:60%;
+        width:25%;
+    }
+    .nme2{
+        height:30%;
+        width:25%;
+    }
+    .nme > p{
+        top:23vw;
+        left: 8vw;
+    }
+    .nme > h1{
+        top: 10vw;
+        left: 3vw;
+    }
+    #btn1{
+        top: 13vw;
+        left: 7vw;
+    }
+    #btn2{
+        top:8vw;
+        left: 0vw;
+    }
+    #btn3{
+        top:3vw;
+        left: -7vw;
+    }
+    .tbxs1{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -43vw;
+        top:10vw;
+    }
+    .tbxs2{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 11vw;
+        top:-99vw;
+    }
+    .imgbx{
+        top: -47.5vw;
+        left: 50.6vw;
+    }
+    .imgbx2{
+        top: -39.7vw;
+        left: 50.6vw;
+    }
+    #btn1.clicked{
+        color: white;
+    }  
+}
