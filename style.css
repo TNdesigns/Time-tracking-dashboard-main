@@ -1,0 +1,594 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: hsl(230, 38%, 3%);
+}
+.nme{
+    height: 350px;
+    width: 260px;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+    z-index: 1;
+}
+.nme2{
+    height: 175px;
+    width: 260px;
+    background-color: hsl(235, 46%, 20%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    margin-top: -16px;
+    
+}
+.nme-bx{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    height: 600px;
+    position: relative;
+    top: 100px;
+    left: -450px;
+}
+.imgbx{
+    height: 70px;
+    width: 255px;
+    position: relative;
+    top: -454px;
+    left: 430px;
+    margin-right: -230px;
+    overflow: hidden;
+}
+.imgbx > img{
+    position: relative;
+    left: 160px;
+    top: -5px;
+    
+}
+.ib1{
+    background-color: hsl(15, 100%, 70%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.ib2{
+    background-color: hsl(195, 74%, 62%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.ib3{
+    background-color: hsl(348, 100%, 68%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.tbxs1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.tbxs2{
+    display: flex;
+    flex-direction: row;
+}
+.statbx{
+    height: 200px;
+    width: 255px;
+    background-color: hsl(235, 46%, 20%);
+    position: relative;
+    top: -411px;
+    left: 405px;
+    border-radius: 20px;
+}
+.imgbx2{
+    height: 70px;
+    width: 255px;
+    position: relative;
+    top: -388px;
+    left: 430px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-right: -230px;
+    overflow: hidden;
+}
+.imbx1{
+    background-color: hsl(145, 58%, 55%);
+}
+.imbx2{
+    background-color: hsl(264, 64%, 52%);
+}
+.imbx3{
+    background-color:hsl(43, 84%, 65%) ;
+}
+.imgbx2 > img[src="images/icon-social.svg"],
+img[src="images/icon-self-care.svg"]{
+    position: relative;
+    top: -15px;
+    
+}
+.imgbx2 > img{
+    position: relative;
+    left: 170px;
+}
+img[src="images/icon-exercise.svg"]{
+    position: relative;
+    left:150px;
+}
+.statbx2{
+    height: 200px;
+    width: 255px;
+    background-color: hsl(235, 46%, 20%);
+    position: relative;
+    top: -345px;
+    left: 405px;
+    border-radius: 20px;
+}
+.activity{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-family: "Rubik";
+    color:white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.dots{
+    position: relative;
+    top: 0px;
+    left: 210px;
+    color:white;
+    font-size: 20px;
+}
+img[src="images/image-jeremy.png"]{
+    height: 70px;
+    width: 70px;
+    border:3px white;
+    border-radius:50%;
+    border-style: solid;
+    position: relative;
+    top: 30px;
+    left:30px;
+}
+.nme > p{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    font-family: "Rubik";
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.498);
+    font-weight:300;
+
+}
+.nme > h1{
+    position: relative;
+    top: 75px;
+    left: 30px;
+    font-family: "Rubik";
+    font-weight: 300;
+    color:white;
+    margin-right: 50px;
+    letter-spacing: 1px;
+}
+#btn1,
+#btn2,
+#btn3{
+    margin: 20px;
+    font-family: "Rubik";
+    color: rgba(255, 255, 255, 0.488);
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+.statbx > h1{
+    font-family: "Rubik";
+    font-weight: 300;
+    color: white;
+    font-size: 43px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.statbx > p{
+    font-family: "Rubik";
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.439);
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+#btn1:hover,
+#btn2:hover,
+#btn3:hover{
+    cursor: pointer;
+    color: white;
+}
+.statbx2 > h1{
+    font-family: "Rubik";
+    font-weight: 300;
+    color: white;
+    font-size: 43px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.statbx2 > p{
+    font-family: "Rubik";
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.439);
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+@media screen and (min-width:300px) and (max-width:359px){
+    html,body{
+        overflow-x: hidden;
+        height: 100%;
+    }
+    .nme-bx{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 0vw;
+        left: 0vw;
+    }
+    .nme{
+        height:20%;
+        position:relative;
+        top: -35vw;
+    }
+    img[src="images/image-jeremy.png"]{
+        height:15vw;
+        width:15vw;
+    }
+    .nme > p{
+        position: relative;
+        top: -5vw;
+        left: 30vw;
+
+    }
+    .nme > h1{
+        position: relative;
+        top: -4vw;
+        left: 30vw;
+        font-size: 5vw;
+    }
+    .nme2{
+        position: relative;
+        top: -68vw;
+        display: flex;
+        flex-direction:row;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    #btn1,
+    #btn2,
+    #btn3{
+        z-index: 1;
+        margin: 5vw;
+        position: relative;
+        top: 38vw;
+        left: 3vw;   
+    }
+    .tbxs1{
+        position: relative;
+        top: 20vw;
+        left: -124.5vw;
+        height: 50%;
+        width:90%;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .ib1{
+        top: -130vw;
+    }
+    .ib3{
+        top:-150vw;
+    }
+    .statbx{
+        height:50%;
+        top:-150vw;
+        left: 134.5vw;
+        margin-top: 10vw;
+    }
+    .sb2{
+        top:-160vw;
+    }
+    .sb3{
+        top:-170vw;
+    }
+    .statbx > h1{
+        font-size: 8vw;
+        top: 2vw;
+    }
+    .statbx > p{
+        top: -5vw;
+        left: 35vw;
+    }
+    .dots{
+        left:70vw;
+    }
+    .tbxs2{
+        position: relative;
+        top: -20vw;
+        left: -124.5vw;
+        height: 50%;
+        width:90%;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .statbx2{
+        height:26vw;
+        top:-140vw;
+        left: 134.5vw;
+        margin-top: 10vw;
+    }
+    .statbx2 > h1{
+        font-size: 8vw;
+        top: 2vw;
+    }
+    .statbx2 > p{
+        top: -5vw;
+        left: 37vw;
+    }
+    .imbx2{
+        top:-130vw;
+    }
+    .sbx2{
+        top:-150vw;
+    }
+    .imbx3{
+        top:-140vw;
+    }
+    .sbx3{
+        top:-160vw;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:499px){
+    html,body{
+        overflow-x: hidden;
+        height: 100%;
+    }
+    .nme-bx{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 0vw;
+        left: 0vw;
+    }
+    .nme{
+        height:20%;
+        width: 90%;
+        position:relative;
+        top: -30vw;
+    }
+    img[src="images/image-jeremy.png"]{
+        height:15vw;
+        width:15vw;
+    }
+    .nme > p{
+        position: relative;
+        top: -5vw;
+        left: 30vw;
+
+    }
+    .nme > h1{
+        position: relative;
+        top: -4vw;
+        left: 30vw;
+        font-size: 5vw;
+    }
+    .nme2{
+        position: relative;
+        top: -55vw;
+        display: flex;
+        flex-direction:row;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 90%;
+    }
+    #btn1,
+    #btn2,
+    #btn3{
+        z-index: 1;
+        margin: 5vw;
+        position: relative;
+        top: 30vw;
+        left: 12vw;   
+    }
+    .tbxs1{
+        position: relative;
+        top: 20vw;
+        left: -124.5vw;
+        height: 50%;
+        width:90%;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .ib1{
+        top: -110vw;
+        left: 130vw;
+        width:100%;
+    }
+    .ib2{
+        width: 100%;
+        left: 130vw;
+        top: -120vw;
+    }
+    .ib3{
+        top:-130vw;
+        left: 130vw;
+        width: 100%;
+    }
+    .statbx{
+        height:50%;
+        top:-125vw;
+        left: 130vw;
+        margin-top: 10vw;
+        width: 100%;
+    }
+    .sb2{
+        top:-135vw;
+        
+    }
+    .sb3{
+        top:-145vw;
+    }
+    .statbx > h1{
+        font-size: 8vw;
+        top: 2vw;
+    }
+    .statbx > p{
+        top: -5vw;
+        left: 54vw;
+    }
+    .dots{
+        left:80vw;
+    }
+    .tbxs2{
+        position: relative;
+        top: -20vw;
+        left: -124.5vw;
+        height: 50%;
+        width:90%;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .statbx2{
+        height:26vw;
+        top:-140vw;
+        left: 134.5vw;
+        margin-top: 10vw;
+    }
+    .statbx2 > h1{
+        font-size: 8vw;
+        top: 2vw;
+    }
+    .statbx2 > p{
+        top: -5vw;
+        left: 54vw;
+    }
+    .imbx2{
+        top:-109vw;
+        left:130vw;
+        width:100%;
+    }
+    .sbx2{
+        top:-125vw;
+        left:130vw;
+        width:100%;
+    }
+    .imbx3{
+        top:-120vw;
+        width: 100%;
+        left: 130vw;
+    }
+    .sbx3{
+        top:-135vw;
+        left:130vw;
+        width:100%;
+    }
+    .imbx1{
+        left:130vw;
+        width:100%;
+        top: -100vw;
+    }
+    .sbx1{
+        top:-115vw;
+        left:130vw;
+        width:100%;
+    }
+    img[src="images/icon-work.svg"],
+    img[src="images/icon-play.svg"],
+    img[src="images/icon-study.svg"],
+    img[src="images/icon-exercise.svg"],
+    img[src="images/icon-social.svg"],
+    img[src="images/icon-self-care.svg"]{
+        left:65vw;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1024px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .nme-bx{
+        /*position: relative;*/
+        top: -21vw;
+        left: 0vw;
+        transform: rotate(270deg);
+        
+    }
+    img[src="images/image-jeremy.png"]{
+        top:3vw;
+        left: 7vw;
+    }
+    img[src="images/image-jeremy.png"],
+    .nme > p,
+    .nme > h1,
+    #btn1,#btn2,#btn3{
+        transform: rotate(90deg);
+    }
+    .nme{
+        height:60%;
+        width:25%;
+    }
+    .nme2{
+        height:30%;
+        width:25%;
+    }
+    .nme > p{
+        top:23vw;
+        left: 8vw;
+    }
+    .nme > h1{
+        top: 10vw;
+        left: 3vw;
+    }
+    #btn1{
+        top: 13vw;
+        left: 7vw;
+    }
+    #btn2{
+        top:8vw;
+        left: 0vw;
+    }
+    #btn3{
+        top:3vw;
+        left: -7vw;
+    }
+    .tbxs1{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -43vw;
+        top:10vw;
+    }
+    .tbxs2{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 5vw;
+        top:-103.5vw;
+    }
+    .imgbx{
+        top: -49.5vw;
+        left: 52.8vw;
+    }
+    .imgbx2{
+        top: -41.5vw;
+        left: 52.7vw;
+    }
+    #btn1.clicked{
+        color: white;
+    }
+    
+}
